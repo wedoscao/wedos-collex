@@ -1,2 +1,2 @@
-CompilerFlags:
-  Add: [-std-c++11, -xc++, -I../include, -O2, -Wall, -Wextra, -Werror]
+CompileFlags:
+  Add: [-std=c++11, -xc++, -I../include, -O2, -Wall, -Wextra, -Werror]

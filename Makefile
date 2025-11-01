@@ -7,7 +7,7 @@ INCLUDE_DIR := include
 LIB_NAME := wedoscollex
 
 CC := g++
-CCFLAGS := -std-c++11 -O2 -I$(INCLUDE_DIR) -Wall -Wextra -Werror
+CCFLAGS := -std=c++11 -O2 -I$(INCLUDE_DIR) -Wall -Wextra -Werror
 
 SRC_FILES := $(wildcard $(SRC_DIR)/*.cpp)
 OBJ_FILES := $(patsubst $(SRC_DIR)/%.cpp, $(BUILD_DIR)/obj/%.o, $(SRC_FILES))
